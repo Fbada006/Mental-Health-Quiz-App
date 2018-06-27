@@ -24,7 +24,7 @@
     <string name="high_medication_costs">Los altos costos de la medicación</string>
 
     <!--Questions TextBoxes string resources-->
-    <string name="thank_you_for_your_time">Gracias por tu tiempo. La encuesta debe demorar menos de cinco minutos. Las preguntas con un * tienen solo una respuesta.</string>
+    <string name="thank_you_for_your_time">Gracias por tu tiempo. La encuesta debe demorar menos de cinco minutos. Las preguntas con un * están clasificados.</string>
     <string name="survey_question_1">1. ¿Qué mes se considera el mes de concientización sobre la salud mental? *</string>
     <string name="survey_question_2">2. ¿Cuál de las siguientes afirmaciones lo describe mejor?</string>
     <string name="survey_question_3">3. ¿Hay asistencia médica para aquellos que tienen enfermedades mentales? *</string>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SurveyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/survey_thank_you_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/thank_you_for_your_time"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+
+        <LinearLayout
+            android:id="@+id/survey_question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_thank_you_text"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/survey_question_1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/survey_awareness_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:hint="@string/mental_health_awareness_month"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_question1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/survey_question_2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question2CheckBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/lived_or_interacted_with_someone_with_mental_health_issues"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question2CheckBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/have_had_or_have_mental_health_issues"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question2CheckBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/none_of_the_above"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_question2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/survey_question_3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/yes_question3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="16dp"
+                    android:checked="false"
+                    android:text="@string/yes_to_question" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/no_to_question" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_question3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/survey_question_4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="16dp"
+                    android:checked="false"
+                    android:text="@string/yes_to_question" />
+
+                <RadioButton
+                    android:id="@+id/no_question4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/no_to_question" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_question4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/survey_question_5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question5CheckBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/witchcraft"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question5CheckBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/silence"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/question5CheckBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/high_medication_costs"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/survey_question6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_question5"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/survey_question_6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_question6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginStart="16dp"
+                    android:checked="false"
+                    android:text="@string/yes_to_question" />
+
+                <RadioButton
+                    android:id="@+id/no_question6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/no_to_question" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/survey_enter_country_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_question6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:hint="@string/name_of_your_country"
+            android:inputType="textCapWords" />
+
+        <Button
+            android:id="@+id/retake_survey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_enter_country_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_custom"
+            android:onClick="retakeSurvey"
+            android:text="@string/retake_survey"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/submit_survey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/survey_enter_country_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_custom"
+            android:onClick="submitSurvey"
+            android:text="@string/submit_survey_button"
+            android:textAllCaps="true" />
+
+
+    </RelativeLayout>
+</ScrollView>

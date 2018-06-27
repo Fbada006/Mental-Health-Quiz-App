@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/informative_common_disorders_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mental_health_informative_activity" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp"
+            android:text="@string/informative_common_mental_disorders"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.85"
+        android:background="@drawable/textview_gradient"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/InformativeTextViews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/informative_war_and_disasters" />
+
+        <TextView
+            style="@style/InformativeTextViews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/informative_rights_abuse" />
+    </LinearLayout>
+
+</LinearLayout>

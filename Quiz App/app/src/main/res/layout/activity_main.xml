@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/hello_world_lets_talk"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/main_activity_image_contentDescription"
+            android:scaleType="centerCrop"
+            android:src="@drawable/health_mental_main_activty" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="casual"
+            android:text="@string/introduction_to_the_survey"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_custom"
+                android:onClick="beginInformative"
+                android:text="@string/to_informative_from_main_screen_button"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_custom"
+                android:onClick="beginSurvey"
+                android:text="@string/to_survey_from_main_button"
+                android:textAllCaps="true"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

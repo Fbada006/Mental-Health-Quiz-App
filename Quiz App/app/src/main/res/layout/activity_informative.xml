@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformativeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="8dp"
+            android:text="@string/informative_did_you_know"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="30sp" />
+
+        <include
+            layout="@layout/likelihood_and_statistics_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            style="@style/InformativeTextViews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e5ffff"
+            android:text="@string/informative_by_the_year_2020" />
+
+        <include
+            layout="@layout/low_income_countries_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            layout="@layout/commondisorders_and_rights_abuse_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+
+        <include
+            layout="@layout/signs_and_symptoms_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="learnMoreAboutMentalHealth"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="8dp"
+            android:text="@string/informative_end_of_informative"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_custom"
+            android:onClick="beginSurvey"
+            android:text="@string/begin_survey_from_informative_button"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.5"
+        android:contentDescription="@string/low_income_states_countries_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/developed_and_developing_countries_informative_activity" />
+
+    <TextView
+        style="@style/InformativeTextViews"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_purple"
+        android:text="@string/informative_low_income_countries"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

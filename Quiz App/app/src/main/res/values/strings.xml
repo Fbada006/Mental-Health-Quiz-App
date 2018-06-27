@@ -1,0 +1,88 @@
+<resources>
+    <!--Labels in the manifest-->
+    <string name="app_name" translatable="false">Mental Health Quiz App</string>
+    <string name="informative_screen">Informative</string>
+    <string name="survey_screen">Survey Questions</string>
+
+    <!--Buttons string resources-->
+    <string name="to_informative_from_main_screen_button">To Informative</string>
+    <string name="to_survey_from_main_button">To survey</string>
+    <string name="begin_survey_from_informative_button">Begin Survey</string>
+    <string name="submit_survey_button">Submit</string>
+    <string name="retake_survey">Retake Survey</string>
+
+    <!--RadioButton string resources-->
+    <string name="yes_to_question">Yes</string>
+    <string name="no_to_question">No</string>
+
+    <!--Checkbox string resources-->
+    <string name="lived_or_interacted_with_someone_with_mental_health_issues">I have lived or interacted with someone with mental health issues.</string>
+    <string name="have_had_or_have_mental_health_issues">I have had or have mental health issues.</string>
+    <string name="none_of_the_above">None of the above apply to me.</string>
+
+    <string name="witchcraft">Witchcraft</string>
+    <string name="silence">Silence</string>
+    <string name="high_medication_costs">High costs of medication</string>
+
+    <!--Questions TextBoxes string resources-->
+    <string name="thank_you_for_your_time">Thank you for your time. The survey should take you less than five minutes. Questions with a * have only one answer.</string>
+    <string name="survey_question_1">1. Which month is considered the mental health awareness month? *</string>
+    <string name="survey_question_2">2. Which of the following statements best describe you?</string>
+    <string name="survey_question_3">3. Is there medical assistance for those who have mental illnesses? *</string>
+    <string name="survey_question_4">4. Old people are more prone to mental illnesses compared to younger people. *</string>
+    <string name="survey_question_5">5. What is the major problem(s) when it comes to dealing with mental health? *</string>
+    <string name="survey_question_6">6. The poor are likelier to have mental health issues compared to the rich. *</string>
+
+    <!--EditText hints-->
+    <string name="mental_health_awareness_month">Mental health awareness month</string>
+    <string name="name_of_your_country">Name of your country (optional)</string>
+
+    <!--TextBoxes in main activity-->
+    <string name="hello_world_lets_talk">Hello World! Lets talk about…</string>
+    <string name="introduction_to_the_survey">For a long time, mental health has been an issue that has been avoided and misunderstood by the entire world. In a bid to raise the awareness and test people\'s knowledge, we request you to take our short survey. Thank you!</string>
+
+    <!--TextBoxes in informative activity-->
+    <string name="informative_did_you_know">Did you know…?</string>
+    <string name="informative_likelihood_of_having_mental_problems">Every 1 in 4 people in the world will have some form of mental problem at some point in their lives.  Based on the world\'s population, around 450 million people currently have mental problems.</string>
+    <string name="informative_by_the_year_2020">In fact, data from the WHO shows that depression will be the main cause of disability in the world by the year 2020.</string>
+    <string name="informative_common_mental_disorders">Common disorders include:  ->Depression  ->Most kinds of phobias  ->Schizophrenia  ->Bipolar disorder  ->Autism  ->Anxiety and panic  ->Post-traumatic stress</string>
+    <string name="informative_rights_abuse">In most countries, people with mental problems or challenges have their rights constantly abused and violated.
+                  Thousands of such cases are reported to the authorities every year.</string>
+    <string name="informative_low_income_countries">Low income states do not have enough personnel or resources to assist people with mental challenges.
+                  Data shows that there are 0.05 psychiatrists and 0.42 nurses per every 100 people in these nations. In addition, Less than 2% of the health budget
+                  is allocated to tackling mental disorders.</string>
+    <string name="informative_war_and_disasters">People who reside in war-torn and unstable regions are in greater risk of developing mental problems.This is especially
+                  true for children.</string>
+    <string name="informative_end_of_informative">This marks the end of our brief informative. Don\'t just stop here, go ahead and do some more research online!  Click this for more or press the button below to begin survey.</string>
+    <string name="does_this_look_like_you">Does this look like you? </string>
+    <string name="this_looks_like_me">If the answer is yes, then you may have a mental health issue.</string>
+
+    <!--Content descriptions for the images-->
+    <string name="main_activity_image_contentDescription">Main image of mental health on the first screen.</string>
+    <string name="informative_common_disorders_image">Image showing some common mental disorders.</string>
+    <string name="the_future_of_the_world_and_mental_health_image">An artistic image showing the world within a head.</string>
+    <string name="signs_of_mental_disorders_image">Image showing the signs and symptoms of mental disorders</string>
+    <string name="low_income_states_countries_image">Image showing the world map with low income countries marked in red.</string>
+
+
+    <!--Toast messages in SurveyActivity-->
+    <string name="user_score_perfect">The survey team commends you for your hands on understanding of mental health issues. Great work!</string>
+    <string name="user_score_almost_perfect">The survey team commends you for your knowledge of mental health issues. Great work!</string>
+    <string name="user_score_fair">Good work!. Your knowledge of mental health is almost perfect</string>
+    <string name="user_score_poor">Thank you for your participation! We recommend that you take the time to learn more.</string>
+    <string name="user_your_score">Your score:</string>
+    <string name="test_total_score">/five</string>
+    <string name="user_your_country">Your country:</string>
+
+    <!--Alert dialog strings for the Survey Activity-->
+    <string name="do_you_want_to_submit">Do you really want to submit?</string>
+    <string name="confirm_submission">Confirm submission.</string>
+
+    <!--Toast message in informative activity-->
+    <string name="please_install_web_browser">You need a web browser installed in your phone in order to proceed</string>
+
+    <!--Mental health awareness month-->
+    <string name="awareness_month">May</string>
+
+
+</resources>

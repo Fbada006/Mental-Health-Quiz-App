@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Labels in the manifest-->
+    <string name="informative_screen">Informativo</string>
+    <string name="survey_screen">Preguntas de la encuesta</string>
+
+    <!--Buttons string resources-->
+    <string name="to_informative_from_main_screen_button">Para informativo</string>
+    <string name="to_survey_from_main_button">Encuestar</string>
+    <string name="begin_survey_from_informative_button">Comience la encuesta</string>
+    <string name="submit_survey_button">enviar</string>
+    <string name="retake_survey">volver a tomar la encuesta</string>
+
+    <!--RadioButton string resources-->
+    <string name="yes_to_question">sí</string>
+    <string name="no_to_question">no</string>
+
+    <!--Checkbox string resources-->
+    <string name="lived_or_interacted_with_someone_with_mental_health_issues">He vivido o interactuado con alguien con problemas de salud mental.</string>
+    <string name="have_had_or_have_mental_health_issues">He tenido o tengo problemas de salud mental.</string>
+    <string name="none_of_the_above">Ninguno de los anteriores se aplica a mí.</string>
+    <string name="witchcraft">Brujería</string>
+    <string name="silence">silencio</string>
+    <string name="high_medication_costs">Los altos costos de la medicación</string>
+
+    <!--Questions TextBoxes string resources-->
+    <string name="thank_you_for_your_time">Gracias por tu tiempo. La encuesta debe demorar menos de cinco minutos. Las preguntas con un * tienen solo una respuesta.</string>
+    <string name="survey_question_1">1. ¿Qué mes se considera el mes de concientización sobre la salud mental? *</string>
+    <string name="survey_question_2">2. ¿Cuál de las siguientes afirmaciones lo describe mejor?</string>
+    <string name="survey_question_3">3. ¿Hay asistencia médica para aquellos que tienen enfermedades mentales? *</string>
+    <string name="survey_question_4">4. Las personas mayores son más propensas a las enfermedades mentales en comparación con las personas más jóvenes. *</string>
+    <string name="survey_question_5">5. ¿Cuál es el problema(s) principal cuando se trata de lidiar con la salud mental? *</string>
+    <string name="survey_question_6">6. Los pobres tienen más probabilidades de tener problemas de salud mental en comparación con los ricos. *</string>
+
+    <!--EditText hints-->
+    <string name="mental_health_awareness_month">Mes de concientización sobre la salud mental</string>
+    <string name="name_of_your_country">Nombre de su país (opcional)</string>
+
+    <!--TextBoxes in main activity-->
+    <string name="hello_world_lets_talk">Hola Mundo! Vamos a hablar acerca de…</string>
+    <string name="introduction_to_the_survey">Durante mucho tiempo, la salud mental ha sido un problema que ha sido evitado e incomprendido por todo el mundo. En un intento por aumentar la conciencia y poner a prueba el conocimiento de las personas, le pedimos que tome nuestra breve encuesta. ¡Gracias!</string>
+
+    <!--TextBoxes in informative activity-->
+    <string name="informative_did_you_know">Sabías…?</string>
+    <string name="informative_likelihood_of_having_mental_problems">Cada 1 de cada 4 personas en el mundo tendrá algún tipo de problema mental en algún momento de sus vidas. Según la población mundial, alrededor de 450 millones de personas tienen actualmente problemas mentales.</string>
+    <string name="informative_by_the_year_2020">De hecho, los datos de la OMS muestran que la depresión será la principal causa de discapacidad en el mundo para el año 2020.</string>
+    <string name="informative_common_mental_disorders">Los trastornos comunes incluyen: -> Depresión -> La mayoría de los tipos de fobias -> Esquizofrenia -> Trastorno bipolar -> Autismo -> Ansiedad y pánico -> Estrés postraumático</string>
+    <string name="informative_rights_abuse">En la mayoría de los países, a las personas con problemas o desafíos mentales se les abusa y viola constantemente sus derechos. Miles de casos de este tipo se denuncian a las autoridades cada año.</string>
+    <string name="informative_low_income_countries">Los estados de bajos ingresos no tienen suficiente personal o recursos para ayudar a las personas con problemas mentales. Los datos muestran que hay 0.05 psiquiatras y 0.42 enfermeras por cada 100 personas en estas naciones. Además, menos del 2% del presupuesto de salud se destina a abordar los trastornos mentales.</string>
+    <string name="informative_war_and_disasters">Las personas que residen en regiones inestables y desgarradas por la guerra corren un mayor riesgo de desarrollar problemas mentales. Esto es especialmente cierto para los niños.</string>
+    <string name="informative_end_of_informative">Esto marca el final de nuestro breve informativo. ¡No se detengan aquí, continúen y hagan más investigaciones en línea!
+                                                 Haga clic aquí para obtener más información o presione el botón de abajo para comenzar la encuesta.</string>
+    <string name="does_this_look_like_you">¿Esto se parece a ti?</string>
+    <string name="this_looks_like_me">Si la respuesta es sí, entonces puede tener un problema de salud mental.</string>
+
+    <!--Content descriptions for the images-->
+    <string name="main_activity_image_contentDescription">Imagen principal de salud mental en la primera pantalla.</string>
+    <string name="informative_common_disorders_image">Imagen que muestra algunos trastornos mentales comunes.</string>
+    <string name="the_future_of_the_world_and_mental_health_image">Una imagen artística que muestra el mundo dentro de una cabeza.</string>
+    <string name="signs_of_mental_disorders_image">Imagen que muestra los signos y síntomas de los trastornos mentales</string>
+    <string name="low_income_states_countries_image">Imagen que muestra el mapa mundial con países de bajos ingresos marcados en rojo.</string>
+
+    <!--Toast messages in SurveyActivity-->
+    <string name="user_score_perfect">El equipo de la encuesta lo elogia por su comprensión de los problemas de salud mental. ¡Buen trabajo!</string>
+    <string name="user_score_almost_perfect">El equipo de la encuesta lo elogia por su conocimiento de los problemas de salud mental. ¡Buen trabajo!</string>
+    <string name="user_score_fair">¡Buen trabajo!. Tu conocimiento de la salud mental es casi perfecto</string>
+    <string name="user_score_poor">¡Gracias por su participación! Le recomendamos que se tome el tiempo para aprender más.</string>
+    <string name="user_your_score">Tu puntuación:</string>
+    <string name="test_total_score">/cinco</string>
+    <string name="user_your_country">Tu país:</string>
+
+    <!--Alert dialog strings for the Survey Activity-->
+    <string name="do_you_want_to_submit">¿De verdad quieres enviar?</string>
+    <string name="confirm_submission">Confirmar sumisión.</string>
+
+    <!--Toast message in informative activity-->
+    <string name="please_install_web_browser">Necesita un navegador web instalado en su teléfono para poder continuar</string>
+
+    <!--Mental health awareness month-->
+    <string name="awareness_month">Mayo</string>
+</resources>

@@ -59,7 +59,10 @@ public class SurveyActivity extends AppCompatActivity {
                         //Get the final score from the helper method created
                         int finalUserSurveyScore = calculateUserSurveyScore();
 
-                        if (finalUserSurveyScore == 5 && (hasCheckedBox1OfQuestion2 || hasCheckedBox2OfQuestion2)) {
+                        //First ensure that all three boxes for question 2 are not checked
+                        if (hasCheckedBox1OfQuestion2 && hasCheckedBox2OfQuestion2 && hasCheckedBox3OfQuestion2) {
+                            Toast.makeText(getApplicationContext(), getString(R.string.cannot_select_all_three_checkboxes), Toast.LENGTH_SHORT).show();
+                        } else if (finalUserSurveyScore == 5 && (hasCheckedBox1OfQuestion2 || hasCheckedBox2OfQuestion2)) {
                             Toast.makeText(getApplicationContext(), getString(R.string.user_score_perfect)
                                     + "\n" + getString(R.string.user_your_score) + finalUserSurveyScore + getString(R.string.test_total_score)
                                     + "\n" + getString(R.string.user_your_country) + countryName, Toast.LENGTH_LONG).show();

@@ -83,6 +83,9 @@
 
     <!--Mental health awareness month-->
     <string name="awareness_month">May</string>
+    
+    <!--Toast error message when user checks all three boxes for question 2-->
+    <string name="cannot_select_all_three_checkboxes">Cannot select all three checkboxes for question two</string>
 
 
 </resources>

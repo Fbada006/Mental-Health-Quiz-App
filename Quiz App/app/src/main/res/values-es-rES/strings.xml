@@ -78,4 +78,7 @@
 
     <!--Mental health awareness month-->
     <string name="awareness_month">Mayo</string>
+    
+    <!--Toast error message when user checks all three boxes for question 2-->
+    <string name="cannot_select_all_three_checkboxes">No se pueden seleccionar las tres casillas de verificación para la pregunta dos<
 </resources>
